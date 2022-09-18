@@ -353,6 +353,7 @@ type CFCEdgeTriggerData struct {
 type CreateTriggerArgs struct {
 	Target string
 	Source SourceType
+	SourceType string
 	Data   interface{}
 }
 type CreateTriggerResult struct {
